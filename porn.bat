@@ -1,4 +1,16 @@
 @ECHO ON
+:: Check for Windows NT 4 and later
+
+IF NOT "%OS%"=="Windows_10" GOTO DontRun
+:: Check for Windows 7
+IF NOT "%OS%"=="Windows_7" GOTO DontRun
+
+:DontRun
+ECHO Sorry, this batch file was written for Windows 10 and Windows 7 only
+echo.
+pause
+exit
+
 pause
 echo Never abuse your porn :)
 echo.
