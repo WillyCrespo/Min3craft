@@ -1,6 +1,5 @@
 @ECHO ON
-:: Check for Windows NT 4 and later
-
+:: Check for Windows 10
 IF NOT "%OS%"=="Windows_10" GOTO DontRun
 :: Check for Windows 7
 IF NOT "%OS%"=="Windows_7" GOTO DontRun
