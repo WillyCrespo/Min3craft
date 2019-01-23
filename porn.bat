@@ -5,19 +5,19 @@ IF NOT "%OS%"=="Windows_10" GOTO DontRun
 IF NOT "%OS%"=="Windows_7" GOTO DontRun
 
 :DontRun
-ECHO Sorry, this batch file was written for Windows 10 and Windows 7 only
+ECHO use Windows 10 or 7 bestter than xp or linux!
 echo.
 pause
 exit
 
 pause
-echo Never abuse your porn :)
+echo Porn is Bad,please dont do it
 echo.
 pause
-echo Creating porn,press any key to confirm action
+echo DON"T PRESS KEY Press CTRL+C Else it will Create,portn
 echo.
 pause
-echo @Folder Making = 100@  @ Exiting Program ,if you press any key :)@
+echo NOOOOOOOO WHY DID YOU PRESS THE P WORD (P*RN) KEY
 md porn
 pause
 exit
